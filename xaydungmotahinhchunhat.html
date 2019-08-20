@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Rectangle = function (width,height) {
+        this.height = height ;
+        this.width = width;
+            this.getChuvi = function () {
+               return (height + width) *2;
+            };
+            this.getDientich = function () {
+                return height * width ;
+            }
+        }
+        let rectangle = new Rectangle(4,8);
+    let dientich = rectangle.getDientich();
+    let chuvi = rectangle.getChuvi();
+  alert("chuvi:" + chuvi + "dientich:" + dientich);
+  
+
+
+</script>
+
+</body>
+</html>
